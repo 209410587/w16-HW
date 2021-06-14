@@ -1,0 +1,24 @@
+.container{
+    color: #fff;
+	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+.nav {
+	position: relative;
+	/* bottom: 0; */
+	width: 100%;
+	height: 70px;
+	background: #fff;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 24px 10px;
+}
+
+.nav li a {
+	color: #757575;
+	text-transform: uppercase;
+}
+

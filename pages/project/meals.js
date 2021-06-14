@@ -1,5 +1,7 @@
 import styles from './mealdb.module.css'
 import Head from 'next/head'
+import Navbar from '../../components/Navbar'
+import Link from 'next/link';
 import { useState } from 'react'
 
 export default function meals() {
@@ -28,6 +30,7 @@ export default function meals() {
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
                 <title>MealDB</title>
             </Head>
+
             <div className={styles.container}>
                 <h1 className={styles.title__main}>Meal Finder</h1>
                 <div className={styles['flex-box']}>
