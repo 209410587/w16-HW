@@ -19,7 +19,7 @@ function Navbar() {
     return (
         <Nav >
             <div>
-                <Link href="/" passHref>
+                <Link href="#">
                     <StyledLink>Kate</StyledLink>
                 </Link>
             </div>
